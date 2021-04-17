@@ -1,0 +1,36 @@
+.statistics {  
+  box-shadow: 1px 1px 5px 1px #d3d2d2;
+  padding-top: 30px;  
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  color:  var(--grey-text-color);
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  width: calc(100% / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.percentage {
+    font-size: 1.2em;
+}
